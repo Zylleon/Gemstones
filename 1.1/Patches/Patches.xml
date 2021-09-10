@@ -34,13 +34,16 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<!-- Set favor value for jade -->
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="Jade"]/statBases</xpath>
-					<value>
-						<RoyalFavorValue>0.005</RoyalFavorValue>
-					</value>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="Jade"]/statBases/RoyalFavorValue</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Jade"]/statBases</xpath>
+						<value>
+							<RoyalFavorValue>0.005</RoyalFavorValue>
+						</value>
+					</nomatch>
 				</li>
-
+			
 				<!-- Add trade tag to jade -->
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName="Jade"]</xpath>
