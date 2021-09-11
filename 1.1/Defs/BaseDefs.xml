@@ -19,7 +19,7 @@
     </thingCategories>
     <statBases>
       <MarketValue>36</MarketValue>
-	  <RoyalFavorValue>0.05</RoyalFavorValue>
+	  <RoyalFavorValue>0.08</RoyalFavorValue>
       <Mass>0.5</Mass>
       <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
@@ -83,7 +83,7 @@
     </thingCategories>
     <statBases>
       <MarketValue>5</MarketValue>
-	  <RoyalFavorValue>0.005</RoyalFavorValue>
+	  <RoyalFavorValue>0.01</RoyalFavorValue>
       <Mass>0.5</Mass>
       <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
@@ -103,7 +103,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.03</commonality>
+      <commonality>0.05</commonality>
       <color>(85,118,69)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
