@@ -5,7 +5,7 @@
 	<ThingDef  Abstract="True" Name="Z_PreciousGemBase" ParentName="ResourceBase">
     <description>A precious gem. Often used for ornaments and decorations.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/PreciousGem</texPath>
+      <texPath>ZGems/Things/Item/Resource/PreciousGem</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	 <shaderType>CutoutComplex</shaderType>
       <color>(255, 255, 255)</color>
@@ -72,7 +72,7 @@
 	<ThingDef  Abstract="True" Name="Z_GemBase" ParentName="ResourceBase">
     <description>A semiprecious stone. Often used for ornaments and decorations.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Gemstone</texPath>
+      <texPath>ZGems/Things/Item/Resource/Gemstone</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
 		<useHitPoints>false</useHitPoints>

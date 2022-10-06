@@ -6,7 +6,7 @@
       <defName>Z_Gemstones</defName>
       <label>gemstones</label>
       <parent>ResourcesRaw</parent>
-      <iconPath>UI/Icons/Gemstones</iconPath>
+      <iconPath>ZGems/UI/Icons/Gemstones</iconPath>
       <resourceReadoutRoot>true</resourceReadoutRoot>
     </ThingCategoryDef>
 	
