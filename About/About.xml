@@ -12,6 +12,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>zylle.Gemstones</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
 	<description>
 More gemstones for more sparkly bases!
 
