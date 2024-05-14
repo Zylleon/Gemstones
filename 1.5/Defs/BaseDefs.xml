@@ -69,6 +69,8 @@
         <li>Z_Gemstones_Precious</li>
       </tradeTags>
   </ThingDef>
+  
+  
 
 	<ThingDef  Abstract="True" Name="Z_GemBase" ParentName="ResourceBase">
     <description>A semiprecious stone. Often used for ornaments and decorations.</description>
