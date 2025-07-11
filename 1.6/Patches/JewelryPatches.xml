@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Jewelry</li>
+			<!-- <li>Gems (Continued)</li> -->
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Diamond"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Ruby"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Sapphire"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Emerald"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 
+		</operations>
+		</match>
+	</Operation>
+	
+</Patch>
+

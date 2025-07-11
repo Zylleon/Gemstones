@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Gems (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+	<!-- add gems to thingCategories -->
+	<!--
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Diamond"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Sapphire"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Emerald"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Ruby"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Amethyst"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Turquoise"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="LapisLazuli"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Opal"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Topaz"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Quartz"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Peridot"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 <li Class="PatchOperationAdd">
+				 <xpath>/Defs/ThingDef[defName="Moonstone"]/thingCategories</xpath> 
+				 <value> 
+					<li>Z_Gemstones</li>
+				 </value> 
+			 </li> 
+			 -->
+			 
+			 
+		<!-- rename ZGems to avoid duplication -->
+		 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Amethyst"]/label</xpath> 
+				<value> 
+					<label>tanzanite</label>
+				</value> 
+			</li> 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Lapis"]/label</xpath> 
+				<value> 
+					<label>sodalite</label>
+				</value> 
+			</li> 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Quartz"]/label</xpath> 
+				<value> 
+					<label>rose quartz</label>
+				</value> 
+			</li> 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Turquoise"]/label</xpath> 
+				<value> 
+					<label>amazonite</label>
+				</value> 
+			</li> 
+			
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Diamond"]/label</xpath> 
+				<value> 
+					<label>whtie topaz</label>
+				</value> 
+			</li> 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Emerald"]/label</xpath> 
+				<value> 
+					<label>diopside</label>
+				</value> 
+			</li> 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Ruby"]/label</xpath> 
+				<value> 
+					<label>pink sapphire</label>
+				</value> 
+			</li> 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Z_Sapphire"]/label</xpath> 
+				<value> 
+					<label>indicolite </label>
+				</value> 
+			</li> 
+		</operations>
+		</match>
+	</Operation>
+	
+</Patch>
+
